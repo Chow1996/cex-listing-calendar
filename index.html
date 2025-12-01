@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEX Listing 日历</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📅 CEX Listing 日历</h1>
+            <p class="subtitle">来自 @news6551 的交易所上市信息</p>
+        </header>
+
+        <div class="controls">
+            <button id="prevMonth" class="nav-btn">← 上个月</button>
+            <h2 id="currentMonth"></h2>
+            <button id="nextMonth" class="nav-btn">下个月 →</button>
+        </div>
+
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <div class="day-name">日</div>
+                <div class="day-name">一</div>
+                <div class="day-name">二</div>
+                <div class="day-name">三</div>
+                <div class="day-name">四</div>
+                <div class="day-name">五</div>
+                <div class="day-name">六</div>
+            </div>
+            <div id="calendar" class="calendar-grid"></div>
+        </div>
+
+        <div id="eventModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalDate"></h2>
+                <div id="modalEvents"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js?v=2"></script>
+    <script src="script.js?v=2"></script>
+</body>
+</html>
+

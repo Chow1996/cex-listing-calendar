@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #667eea;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.controls h2 {
+    font-size: 1.8em;
+    color: #333;
+    flex: 1;
+    text-align: center;
+}
+
+.nav-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.nav-btn:hover {
+    background: #5568d3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.nav-btn:active {
+    transform: translateY(0);
+}
+
+.calendar-container {
+    margin-top: 20px;
+}
+
+.calendar-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.day-name {
+    text-align: center;
+    font-weight: 600;
+    color: #667eea;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    min-height: 120px;
+    padding: 8px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fafafa;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.calendar-day:hover {
+    background: #f0f0f0;
+    border-color: #667eea;
+    transform: scale(1.02);
+}
+
+.calendar-day.other-month {
+    opacity: 0.4;
+    background: #f5f5f5;
+}
+
+.calendar-day.today {
+    background: #fff3cd;
+    border-color: #ffc107;
+    font-weight: bold;
+}
+
+.calendar-day.has-events {
+    background: #e3f2fd;
+    border-color: #2196f3;
+}
+
+.day-number {
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.event-item {
+    font-size: 0.7em;
+    padding: 4px 6px;
+    margin: 2px 0;
+    background: #667eea;
+    color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+    border-left: 3px solid transparent;
+}
+
+.event-item:hover {
+    opacity: 0.9;
+    transform: translateX(2px);
+}
+
+/* 交易所颜色 - Spot */
+.event-item.event-spot.exchange-binance {
+    background: #f3ba2f;
+    border-left-color: #f3ba2f;
+    color: #000;
+}
+
+.event-item.event-spot.exchange-coinbase {
+    background: #0052ff;
+    border-left-color: #0052ff;
+}
+
+.event-item.event-spot.exchange-bybit {
+    background: #fcd535;
+    border-left-color: #fcd535;
+    color: #000;
+}
+
+.event-item.event-spot.exchange-okx {
+    background: #000000;
+    border-left-color: #000000;
+}
+
+.event-item.event-spot.exchange-upbit {
+    background: #0d4f8c;
+    border-left-color: #0d4f8c;
+}
+
+.event-item.event-spot.exchange-bithumb {
+    background: #e60012;
+    border-left-color: #e60012;
+}
+
+.event-item.event-spot.exchange-kraken {
+    background: #5842bb;
+    border-left-color: #5842bb;
+}
+
+.event-item.event-spot.exchange-huobi {
+    background: #00a8e1;
+    border-left-color: #00a8e1;
+}
+
+.event-item.event-spot.exchange-gate {
+    background: #1d8cf8;
+    border-left-color: #1d8cf8;
+}
+
+.event-item.event-spot.exchange-kucoin {
+    background: #26c18c;
+    border-left-color: #26c18c;
+}
+
+.event-item.event-spot.exchange-mexc {
+    background: #00d2ff;
+    border-left-color: #00d2ff;
+    color: #000;
+}
+
+.event-item.event-spot.exchange-bitget {
+    background: #03c087;
+    border-left-color: #03c087;
+}
+
+.event-item.event-spot.exchange-bitmart {
+    background: #1ca085;
+    border-left-color: #1ca085;
+}
+
+.event-item.event-spot.exchange-hyperliquid {
+    background: #6366f1;
+    border-left-color: #6366f1;
+}
+
+.event-item.event-spot.exchange-default {
+    background: #10b981;
+    border-left-color: #10b981;
+}
+
+/* Alpha 类型样式 */
+.event-item.event-alpha {
+    background: #8b5cf6;
+    border-left-color: #8b5cf6;
+}
+
+.event-item.event-alpha.exchange-binance {
+    background: #a855f7;
+    border-left-color: #a855f7;
+}
+
+/* Pre-Market 类型样式 */
+.event-item.event-premarket {
+    background: #ec4899;
+    border-left-color: #ec4899;
+}
+
+.event-item.event-premarket.exchange-binance {
+    background: #f472b6;
+    border-left-color: #f472b6;
+}
+
+.event-item.event-premarket.exchange-bybit {
+    background: #f97316;
+    border-left-color: #f97316;
+}
+
+.event-item.event-premarket.exchange-okx {
+    background: #6b7280;
+    border-left-color: #6b7280;
+}
+
+/* 交易所颜色 - Perp (使用更深的色调) */
+.event-item.event-perp.exchange-binance {
+    background: #c99a1f;
+    border-left-color: #c99a1f;
+    color: #fff;
+}
+
+.event-item.event-perp.exchange-coinbase {
+    background: #0039cc;
+    border-left-color: #0039cc;
+}
+
+.event-item.event-perp.exchange-bybit {
+    background: #c9a829;
+    border-left-color: #c9a829;
+    color: #fff;
+}
+
+.event-item.event-perp.exchange-okx {
+    background: #333333;
+    border-left-color: #333333;
+}
+
+.event-item.event-perp.exchange-upbit {
+    background: #0a3d6f;
+    border-left-color: #0a3d6f;
+}
+
+.event-item.event-perp.exchange-bithumb {
+    background: #b8000e;
+    border-left-color: #b8000e;
+}
+
+.event-item.event-perp.exchange-kraken {
+    background: #453595;
+    border-left-color: #453595;
+}
+
+.event-item.event-perp.exchange-huobi {
+    background: #0086b4;
+    border-left-color: #0086b4;
+}
+
+.event-item.event-perp.exchange-gate {
+    background: #1770c6;
+    border-left-color: #1770c6;
+}
+
+.event-item.event-perp.exchange-kucoin {
+    background: #1e9a70;
+    border-left-color: #1e9a70;
+}
+
+.event-item.event-perp.exchange-mexc {
+    background: #00a8cc;
+    border-left-color: #00a8cc;
+}
+
+.event-item.event-perp.exchange-bitget {
+    background: #02996c;
+    border-left-color: #02996c;
+}
+
+.event-item.event-perp.exchange-bitmart {
+    background: #16806a;
+    border-left-color: #16806a;
+}
+
+.event-item.event-perp.exchange-hyperliquid {
+    background: #4f46e5;
+    border-left-color: #4f46e5;
+}
+
+.event-item.event-perp.exchange-default {
+    background: #f59e0b;
+    border-left-color: #f59e0b;
+}
+
+.event-count {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff5722;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.3s;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    animation: slideDown 0.3s;
+    position: relative;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+.close:hover {
+    color: #000;
+}
+
+#modalDate {
+    margin-bottom: 20px;
+    color: #667eea;
+    font-size: 1.5em;
+}
+
+.event-detail {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.event-detail h3 {
+    color: #333;
+    margin: 0;
+    font-size: 1.2em;
+    flex: 1;
+}
+
+.type-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.type-badge.type-perp {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.type-badge.type-spot {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.type-badge.type-alpha {
+    background: #ede9fe;
+    color: #5b21b6;
+}
+
+.type-badge.type-premarket {
+    background: #fce7f3;
+    color: #9f1239;
+}
+
+.event-detail p {
+    color: #666;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.event-notes {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #e5e7eb;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .controls {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .controls h2 {
+        font-size: 1.4em;
+    }
+
+    .calendar-day {
+        min-height: 100px;
+        padding: 5px;
+        max-height: 150px;
+    }
+
+    .event-item {
+        font-size: 0.65em;
+        padding: 3px 5px;
+        margin: 1px 0;
+    }
+}
+
