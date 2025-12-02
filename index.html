@@ -19,7 +19,15 @@
             <button id="nextMonth" class="nav-btn">下个月 →</button>
         </div>
 
-        <div class="calendar-container">
+        <div class="filter-container">
+            <label for="exchangeFilter" class="filter-label">筛选交易所：</label>
+            <select id="exchangeFilter" class="exchange-filter">
+                <option value="">全部交易所</option>
+            </select>
+        </div>
+
+        <div class="main-content">
+            <div class="calendar-container">
             <div class="calendar-header">
                 <div class="day-name">日</div>
                 <div class="day-name">一</div>
@@ -32,6 +40,12 @@
             <div id="calendar" class="calendar-grid"></div>
         </div>
 
+            <div class="stats-panel">
+                <h3>交易所统计</h3>
+                <div id="exchangeStats"></div>
+            </div>
+        </div>
+
         <div id="eventModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
@@ -41,8 +55,8 @@
         </div>
     </div>
 
-    <script src="data.js?v=2"></script>
-    <script src="script.js?v=2"></script>
+    <script src="data.js?v=11"></script>
+    <script src="script.js?v=11"></script>
 </body>
 </html>
 
