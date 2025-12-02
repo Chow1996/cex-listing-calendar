@@ -3,6 +3,9 @@ let currentDate = new Date();
 let currentMonth = currentDate.getMonth();
 let currentYear = currentDate.getFullYear();
 
+// 当前筛选的交易所（空字符串表示不过滤）
+let selectedExchange = '';
+
 // 月份名称
 const monthNames = [
     '一月', '二月', '三月', '四月', '五月', '六月',
@@ -11,9 +14,27 @@ const monthNames = [
 
 // 初始化日历
 function initCalendar() {
+    initExchangeFilter();
     updateCalendarHeader();
     renderCalendar();
+    updateExchangeStats();
     setupEventListeners();
+}
+
+// 初始化交易所筛选下拉框
+function initExchangeFilter() {
+    const filter = document.getElementById('exchangeFilter');
+    
+    // 获取所有唯一的交易所
+    const exchanges = [...new Set(cexListings.map(event => event.exchange).filter(Boolean))].sort();
+    
+    // 添加选项
+    exchanges.forEach(exchange => {
+        const option = document.createElement('option');
+        option.value = exchange;
+        option.textContent = exchange;
+        filter.appendChild(option);
+    });
 }
 
 // 更新日历标题
@@ -152,7 +173,14 @@ function getExchangeClass(exchange) {
 
 // 获取指定日期的事件
 function getEventsForDate(dateStr) {
-    return cexListings.filter(event => event.date === dateStr);
+    let events = cexListings.filter(event => event.date === dateStr);
+    
+    // 如果选择了交易所筛选，则进一步过滤
+    if (selectedExchange) {
+        events = events.filter(event => event.exchange === selectedExchange);
+    }
+    
+    return events;
 }
 
 // 显示事件详情模态框
@@ -200,6 +228,7 @@ function setupEventListeners() {
         }
         updateCalendarHeader();
         renderCalendar();
+        updateExchangeStats();
     });
 
     // 下个月按钮
@@ -211,6 +240,7 @@ function setupEventListeners() {
         }
         updateCalendarHeader();
         renderCalendar();
+        updateExchangeStats();
     });
 
     // 关闭模态框
@@ -226,6 +256,87 @@ function setupEventListeners() {
             modal.style.display = 'none';
         }
     });
+
+    // 交易所筛选
+    const exchangeFilter = document.getElementById('exchangeFilter');
+    exchangeFilter.addEventListener('change', (e) => {
+        selectedExchange = e.target.value;
+        renderCalendar();
+        updateExchangeStats();
+    });
+}
+
+// 更新交易所统计（只统计当前月份）
+function updateExchangeStats() {
+    const statsPanel = document.getElementById('exchangeStats');
+    if (!statsPanel) return;
+    
+    // 获取当前月份的第一天和最后一天
+    const firstDay = new Date(currentYear, currentMonth, 1);
+    const lastDay = new Date(currentYear, currentMonth + 1, 0);
+    const monthStart = formatDate(currentYear, currentMonth, 1);
+    const monthEnd = formatDate(currentYear, currentMonth, lastDay.getDate());
+    
+    // 筛选当前月份的数据
+    const monthEvents = cexListings.filter(event => {
+        const eventDate = event.date;
+        return eventDate >= monthStart && eventDate <= monthEnd;
+    });
+    
+    // 获取所有交易所
+    const exchanges = [...new Set(monthEvents.map(event => event.exchange).filter(Boolean))].sort();
+    
+    // 计算每个交易所的统计
+    const stats = {};
+    exchanges.forEach(exchange => {
+        const exchangeEvents = monthEvents.filter(event => event.exchange === exchange);
+        stats[exchange] = {
+            total: exchangeEvents.length,
+            spot: exchangeEvents.filter(e => e.type === 'spot').length,
+            perp: exchangeEvents.filter(e => e.type === 'perp').length,
+            premarket: exchangeEvents.filter(e => e.type === 'pre-market').length,
+            alpha: exchangeEvents.filter(e => e.type === 'alpha').length
+        };
+    });
+    
+    // 按总数排序
+    const sortedExchanges = exchanges.sort((a, b) => stats[b].total - stats[a].total);
+    
+    // 生成 HTML
+    if (sortedExchanges.length === 0) {
+        statsPanel.innerHTML = '<p style="color: #8a8fa3; text-align: center; padding: 20px;">该月暂无数据</p>';
+        return;
+    }
+    
+    statsPanel.innerHTML = sortedExchanges.map(exchange => {
+        const stat = stats[exchange];
+        return `
+            <div class="exchange-stat-item">
+                <div class="exchange-stat-header">
+                    <span class="exchange-stat-name">${exchange}</span>
+                    <span class="exchange-stat-total">${stat.total}</span>
+                </div>
+                <div class="exchange-stat-types">
+                    ${stat.spot > 0 ? `<div class="stat-type-item spot">
+                        <span class="stat-type-label">Spot</span>
+                        <span class="stat-type-count">${stat.spot}</span>
+                    </div>` : ''}
+                    ${stat.perp > 0 ? `<div class="stat-type-item perp">
+                        <span class="stat-type-label">Perp</span>
+                        <span class="stat-type-count">${stat.perp}</span>
+                    </div>` : ''}
+                    ${stat.premarket > 0 ? `<div class="stat-type-item premarket">
+                        <span class="stat-type-label">Pre-Market</span>
+                        <span class="stat-type-count">${stat.premarket}</span>
+                    </div>` : ''}
+                    ${stat.alpha > 0 ? `<div class="stat-type-item alpha">
+                        <span class="stat-type-label">Alpha</span>
+                        <span class="stat-type-count">${stat.alpha}</span>
+                    </div>` : ''}
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 
 // 页面加载时初始化
