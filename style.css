@@ -46,6 +46,18 @@ header {
     border-bottom: 1px solid #3a3d4e;
 }
 
+header.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #25293a;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #3a3d4e;
+}
+
 header h1 {
     font-size: 2em;
     color: #ff6b35;
@@ -718,33 +730,227 @@ header h1 {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding: 5px;
+    }
+
     .container {
-        padding: 15px;
+        padding: 10px;
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    header.sticky-header {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin-top: -5px;
+        margin-bottom: 15px;
     }
 
     header h1 {
-        font-size: 1.8em;
+        font-size: 1.4em;
+        margin-bottom: 5px;
+    }
+
+    .subtitle {
+        font-size: 0.85em;
+    }
+
+    .subtitle a {
+        font-size: 1em;
+    }
+
+    .notice-banner {
+        padding: 10px 12px;
+        margin-bottom: 15px;
+        font-size: 0.85em;
+    }
+
+    .notice-icon {
+        font-size: 1em;
+    }
+
+    .notice-text {
+        font-size: 0.8em;
     }
 
     .controls {
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
+        margin-bottom: 15px;
+        padding: 0 5px;
     }
 
     .controls h2 {
-        font-size: 1.4em;
+        font-size: 1.2em;
+        order: -1;
+    }
+
+    .nav-btn {
+        padding: 6px 12px;
+        font-size: 0.85em;
+        width: 100%;
+    }
+
+    .filter-container {
+        margin-bottom: 15px;
+        padding: 8px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filter-label {
+        margin-bottom: 8px;
+        margin-right: 0;
+        font-size: 0.85em;
+    }
+
+    .exchange-filter {
+        width: 100%;
+        min-width: auto;
+        font-size: 0.85em;
+    }
+
+    .main-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .calendar-container {
+        width: 100%;
+    }
+
+    .calendar-header {
+        gap: 2px;
+        margin-bottom: 4px;
+    }
+
+    .day-name {
+        padding: 6px 2px;
+        font-size: 0.75em;
+    }
+
+    .calendar-grid {
+        gap: 2px;
     }
 
     .calendar-day {
-        min-height: 100px;
-        padding: 5px;
-        max-height: 150px;
+        min-height: 80px;
+        padding: 4px;
+        max-height: 120px;
+        font-size: 0.8em;
+    }
+
+    .day-number {
+        font-size: 0.75em;
+        margin-bottom: 2px;
     }
 
     .event-item {
-        font-size: 0.65em;
-        padding: 3px 5px;
+        font-size: 0.6em;
+        padding: 2px 4px;
         margin: 1px 0;
+    }
+
+    .event-count {
+        width: 16px;
+        height: 16px;
+        font-size: 0.6em;
+        top: 2px;
+        right: 2px;
+    }
+
+    .stats-panel {
+        width: 100%;
+        position: static;
+        margin-top: 0;
+    }
+
+    .stats-panel h3 {
+        font-size: 1em;
+        margin-bottom: 12px;
+    }
+
+    .exchange-stat-item {
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+
+    .exchange-stat-name {
+        font-size: 0.9em;
+    }
+
+    .exchange-stat-total {
+        font-size: 0.8em;
+    }
+
+    .stat-type-item {
+        font-size: 0.75em;
+        padding: 3px 5px;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 10% auto;
+        padding: 15px;
+    }
+
+    #modalDate {
+        font-size: 1.1em;
+    }
+
+    .event-detail {
+        padding: 10px;
+    }
+
+    .event-detail h3 {
+        font-size: 1em;
+    }
+
+    .event-detail p {
+        font-size: 0.85em;
+    }
+
+    .type-badge {
+        font-size: 0.75em;
+        padding: 3px 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 3px;
+    }
+
+    .container {
+        padding: 8px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    .subtitle {
+        font-size: 0.8em;
+    }
+
+    .controls h2 {
+        font-size: 1.1em;
+    }
+
+    .calendar-day {
+        min-height: 70px;
+        max-height: 100px;
+    }
+
+    .event-item {
+        font-size: 0.55em;
+        padding: 2px 3px;
+    }
+
+    .day-name {
+        font-size: 0.7em;
+        padding: 5px 1px;
     }
 }
 
