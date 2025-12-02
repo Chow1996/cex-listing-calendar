@@ -58,6 +58,40 @@ header h1 {
     font-size: 0.95em;
 }
 
+.subtitle a {
+    color: #ff6b35;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.subtitle a:hover {
+    color: #ff8c5a;
+    text-decoration: underline;
+}
+
+.notice-banner {
+    background: rgba(255, 107, 53, 0.1);
+    border: 1px solid #ff6b35;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ff8c5a;
+}
+
+.notice-icon {
+    font-size: 1.2em;
+    flex-shrink: 0;
+}
+
+.notice-text {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #ff8c5a;
+}
+
 .controls {
     display: flex;
     justify-content: space-between;
