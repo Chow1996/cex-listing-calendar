@@ -25,7 +25,9 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
+    padding-top: 10px;
     border: 1px solid #3a3d4e;
+    position: relative;
 }
 
 .main-content {
@@ -49,13 +51,14 @@ header {
 header.sticky-header {
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
     background: #25293a;
     padding-top: 10px;
     padding-bottom: 15px;
     margin-top: -10px;
     margin-bottom: 20px;
     border-bottom: 1px solid #3a3d4e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
