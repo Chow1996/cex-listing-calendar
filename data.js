@@ -733,7 +733,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\"福尔特\\\\\\"）韩元市场上线纪',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\"福尔特\\\\\\\"）韩元市场上',
     },
     {
         date: '2025-06-19',
@@ -742,7 +742,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\"福尔特\\\\\\"）韩元市场上线纪',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\"福尔特\\\\\\\"）韩元市场上',
     },
     {
         date: '2025-06-19',
@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\"  ---------',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\\"  -------',
     },
     {
         date: '2025-12-03',
@@ -5762,5 +5762,23 @@ const cexListings = [
         type: 'spot',
         time: '03:42',
         notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Humidifi (WET), zkPass (ZKP), Plume (PLUME), Hyperlane (HYPER), and Jupiter (JUPITER) **  COI',
+    },
+    {
+        date: '2025-12-03',
+        token: 'BOB',
+        token_display: 'BOB',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '10:33',
+        notes: '📢 **Bithumb LISTING:비오비(BOB), 오리진트레일(TRAC) 원화 마켓 추가 **  Bithumb LISTING:新增BOB和TRAC韩元市场  ---------- 🔗 [查看来源](https://feed.bithumb.com/notice/1650991) 🕒',
+    },
+    {
+        date: '2025-12-03',
+        token: 'TRAC',
+        token_display: 'TRAC',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '10:33',
+        notes: '📢 **Bithumb LISTING:비오비(BOB), 오리진트레일(TRAC) 원화 마켓 추가 **  Bithumb LISTING:新增BOB和TRAC韩元市场  ---------- 🔗 [查看来源](https://feed.bithumb.com/notice/1650991) 🕒',
     },
 ];
