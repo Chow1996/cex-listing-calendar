@@ -733,7 +733,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\"福尔特\\\\\\\\"）韩元市',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\"福尔特\\\\\\\\\"）韩',
     },
     {
         date: '2025-06-19',
@@ -742,7 +742,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\"福尔特\\\\\\\\"）韩元市',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\"福尔特\\\\\\\\\"）韩',
     },
     {
         date: '2025-06-19',
@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\\\"  -----',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\\\\"  ---',
     },
     {
         date: '2025-12-03',
@@ -5780,5 +5780,23 @@ const cexListings = [
         type: 'spot',
         time: '15:16',
         notes: '📢 **Bithumb LISTING:오리진트레일(TRAC) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:为庆祝Origin Trail (TRAC) KRW市场上线，将举办空投活动  ---------- 🔗 [查看来源](https://feed.bit',
+    },
+    {
+        date: '2025-12-04',
+        token: 'BEAM',
+        token_display: 'Beam (BEAM)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '07:39',
+        notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Beam (BEAM) **  COINBASE LISTING: 今天添加到产品路线图的资产：Beam (BEAM)  ---------- 🔗 [查看来源](https://twit',
+    },
+    {
+        date: '2025-12-04',
+        token: 'BOB',
+        token_display: 'BOB',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '11:30',
+        notes: '📢 **Bithumb LISTING:비오비(BOB) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:为庆祝BOB（BOB）加入韩元市场，我们将举办空投活动  ---------- 🔗 [查看来源](https://feed.bithumb.com/notice',
     },
 ];
