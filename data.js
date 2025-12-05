@@ -733,7 +733,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\"福尔特\\\\\\\\\\',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\"福尔特\\\\\\\\\',
     },
     {
         date: '2025-06-19',
@@ -742,7 +742,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\"福尔特\\\\\\\\\\',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\"福尔特\\\\\\\\\',
     },
     {
         date: '2025-06-19',
@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\\\\\\" ',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\\\\\\\',
     },
     {
         date: '2025-12-03',
@@ -5807,5 +5807,14 @@ const cexListings = [
         type: 'pre-market',
         time: '12:00 UTC',
         notes: '📢 **BYBIT: Listing of WETUSDT on Bybit Perpetual Pre-Market on Dec 4, 2025, 12:00PM UTC **  BYBIT: WETUSDT将于2025年12月4日UTC时间下午12:00在Bybit Perpetual盘前交易',
+    },
+    {
+        date: '2025-12-05',
+        token: 'SAPIEN',
+        token_display: 'Sapien (SAPIEN)',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '11:30',
+        notes: '📢 **Bithumb LISTING:[이벤트] 사피엔(SAPIEN) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】SAPIEN韩元市场新增纪念空投活动  ---------- 🔗 [查看来源](https://feed.bithumb.com/no',
     },
 ];
