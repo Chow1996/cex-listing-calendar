@@ -733,7 +733,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\"福尔特\\\\',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\"福尔特\\\',
     },
     {
         date: '2025-06-19',
@@ -742,7 +742,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\"福尔特\\\\',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\"福尔特\\\',
     },
     {
         date: '2025-06-19',
@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\\',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\\\',
     },
     {
         date: '2025-12-03',
@@ -5843,5 +5843,14 @@ const cexListings = [
         type: 'perp',
         time: '15:40',
         notes: '📢 **Binance Futures Will Launch USDⓈ-Margined POWERUSDT Perpetual Contract (2025-12-06) **  币安期货将推出以美元计价的POWERUSDT永续合约（2025年12月6日）  ---------- 🔗 [查看来源',
+    },
+    {
+        date: '2025-12-08',
+        token: 'STABLE',
+        token_display: 'STABLE',
+        exchange: 'OKX',
+        type: 'perp',
+        time: '12:02',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list perpetual futures for STABLE cryptoDetail:  at: 2025-12-08T12:02:19Z **  OKX LISTING:#OKX 重要通',
     },
 ];
