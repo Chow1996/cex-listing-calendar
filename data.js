@@ -733,7 +733,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\"福尔特\',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\\"福尔特',
     },
     {
         date: '2025-06-19',
@@ -742,7 +742,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\"福尔特\',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\\"福尔特',
     },
     {
         date: '2025-06-19',
@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\\',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日）\\',
     },
     {
         date: '2025-12-03',
@@ -5965,5 +5965,23 @@ const cexListings = [
         time: '06:07',
         pairs: 'PLUME/USD',
         notes: '📢 **COINBASE LISTING: The launch of spot trading for Plume (PLUME) has been postponed to 10 December 2025. The opening of our PLUME-USD trading pair w',
+    },
+    {
+        date: '2025-12-11',
+        token: 'STABLE',
+        token_display: 'STABLE',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '14:30',
+        notes: '📢 **Bithumb LISTING:스테이블(STABLE) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:为庆祝韩元稳定市场上线，我们将举办空投活动  ---------- 🔗 [查看来源](https://feed.bithumb.com/notice/1',
+    },
+    {
+        date: '2025-12-11',
+        token: 'ALMANAK',
+        token_display: 'ALMANAK',
+        exchange: 'Bybit',
+        type: 'spot',
+        time: '20:02',
+        notes: '📢 **BYBIT: 🔥 Listing of ALMANAK on Convert & Bybit Savings **  BYBIT: 🔥 ALMANAK 在 Convert &amp; Bybit Savings 上架  ---------- 🔗 [查看来源](https://announce',
     },
 ];
