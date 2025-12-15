@@ -733,7 +733,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\\\\\"',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\\\\\\',
     },
     {
         date: '2025-06-19',
@@ -742,7 +742,7 @@ const cexListings = [
         exchange: 'Bithumb',
         type: 'spot',
         time: '13:46',
-        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\\\\\"',
+        notes: '📢 **Bithumb LISTING:[이벤트] 후마 파이낸스(HUMA), 포르타(FORT) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:[活动] HUMA Finance（后马金融）庆祝FORT（音译为\\\\\\\\\\\\\\\\\\\\\\\\\',
     },
     {
         date: '2025-06-19',
@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2日',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2',
     },
     {
         date: '2025-12-03',
@@ -6010,5 +6010,23 @@ const cexListings = [
         type: 'spot',
         time: '07:28',
         notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Lighter (LIGHTER) **  COINBASE LISTING: 今天添加到产品路线图的资产：Lighter（轻量级）  ---------- 🔗 [查看来源](https',
+    },
+    {
+        date: '2025-12-14',
+        token: 'RAVE',
+        token_display: 'RAVE',
+        exchange: 'Binance',
+        type: 'perp',
+        time: '22:18',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RAVEUSDT Perpetual Contract (2025-12-14) **  币安期货将推出以美元Ⓢ计价的RAVEUSDT永续合约（2025年12月14日）  ---------- 🔗 [查看来源',
+    },
+    {
+        date: '2025-12-15',
+        token: 'WET',
+        token_display: 'Humidify (WET)',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '18:20',
+        notes: '📢 **Bithumb LISTING:[이벤트] 휴미디파이(WET) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】空投活动庆祝 Humidify (WET) 上线韩元市场  ---------- 🔗 [查看来源](https://feed.bithum',
     },
 ];
