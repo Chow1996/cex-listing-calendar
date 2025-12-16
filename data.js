@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月2',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2025年12月',
     },
     {
         date: '2025-12-03',
@@ -6028,5 +6028,24 @@ const cexListings = [
         type: 'spot',
         time: '18:20',
         notes: '📢 **Bithumb LISTING:[이벤트] 휴미디파이(WET) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】空投活动庆祝 Humidify (WET) 上线韩元市场  ---------- 🔗 [查看来源](https://feed.bithum',
+    },
+    {
+        date: '2025-12-16',
+        token: 'BEAM',
+        token_display: 'Beam (BEAM)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '00:54',
+        pairs: 'BEAM/USD',
+        notes: '📢 **COINBASE LISTING: Spot trading for Beam (BEAM) will go live on 16 December 2025. The opening of our BEAM-USD trading pair will begin on or after 9',
+    },
+    {
+        date: '2025-12-16',
+        token: 'EDEN',
+        token_display: 'OpenEden (EDEN)',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '16:55',
+        notes: '📢 **Bithumb LISTING:[이벤트] 오픈에덴(EDEN) 원화 마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】庆祝韩元市场上线Open Eden（EDEN）的空投活动  ---------- 🔗 [查看来源](https://feed.bithu',
     },
 ];
