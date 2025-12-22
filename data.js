@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（202',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（20',
     },
     {
         date: '2025-12-03',
@@ -6139,6 +6139,15 @@ const cexListings = [
         type: 'perp',
         time: '16:33',
         notes: '📢 **Binance Futures Will Launch USDⓈ-Margined ZKPUSDT, GUAUSDT and IRUSDT Perpetual Contract (2025-12-21) **  币安期货将于2025年12月21日推出以美元Ⓢ为保证金的ZKPUSDT、GUAU',
+    },
+    {
+        date: '2025-12-22',
+        token: 'ZKP',
+        token_display: 'Pass (ZKP)',
+        exchange: 'Bybit',
+        type: 'perp',
+        time: '17:48',
+        notes: '📢 **BYBIT: New listing: ZKPUSDT Perpetual Contract in Innovation Zone, with up to 25x leverage **  BYBIT: 新上线：ZKPUSDT 永续合约，创新板块，最高可达 25 倍杠杆  ---------',
     },
     {
         date: '2025-12-22',
