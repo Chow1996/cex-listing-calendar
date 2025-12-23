@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（20',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2',
     },
     {
         date: '2025-12-03',
@@ -6157,5 +6157,14 @@ const cexListings = [
         type: 'spot',
         time: '18:01',
         notes: '📢 **Join the  Pre-TGE and Booster Program on ****#Binance**** Wallet with  ****@BitwayOfficial****  📅 Booster Program Start Time: December 22 2025  🎯 ',
+    },
+    {
+        date: '2025-12-23',
+        token: 'THQ',
+        token_display: 'Teoric (THQ)',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '13:30',
+        notes: '📢 **Bithumb LISTING:테오릭(THQ) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:为庆祝 Teoric (THQ) 正式上线韩元市场，我们将举办空投活动  ---------- 🔗 [查看来源](https://feed.bithumb.com',
     },
 ];
