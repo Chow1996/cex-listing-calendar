@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（2',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT永续合约（',
     },
     {
         date: '2025-12-03',
@@ -6166,5 +6166,23 @@ const cexListings = [
         type: 'spot',
         time: '13:30',
         notes: '📢 **Bithumb LISTING:테오릭(THQ) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:为庆祝 Teoric (THQ) 正式上线韩元市场，我们将举办空投活动  ---------- 🔗 [查看来源](https://feed.bithumb.com',
+    },
+    {
+        date: '2025-12-23',
+        token: 'LIT',
+        token_display: 'LIT',
+        exchange: 'Binance',
+        type: 'pre-market',
+        time: '21:53',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined LITUSDT Perpetual Contract Pre-Market Trading (2025-12-23) **  币安期货将于2025年12月23日推出以美元Ⓢ为保证金的LITUSDT永续合约盘前',
+    },
+    {
+        date: '2025-12-24',
+        token: 'LIT',
+        token_display: 'LIT (Lighter)',
+        exchange: 'OKX',
+        type: 'pre-market',
+        time: '03:01',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list pre-market perpetual futures for LIT (Lighter) cryptoDetail:  at: 2025-12-24T03:01:12Z **  OK',
     },
 ];
