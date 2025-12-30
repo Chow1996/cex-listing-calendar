@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSDT',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUSD',
     },
     {
         date: '2025-12-03',
@@ -6229,5 +6229,14 @@ const cexListings = [
         type: 'spot',
         time: '14:45',
         notes: '📢 **Bithumb LISTING:[이벤트] 지케이패스(ZKP) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】空投活动庆祝 ZKP 上线韩元市场  ---------- 🔗 [查看来源](https://feed.bithumb.com/notic',
+    },
+    {
+        date: '2025-12-30',
+        token: 'BREV',
+        token_display: 'Brevis (BREV)',
+        exchange: 'Binance',
+        type: 'pre-market',
+        time: '18:30',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined BREVUSDT Perpetual Contract Pre-Market Trading (2025-12-30) **  币安期货将于2025年12月30日推出以美元计价的BREVUSDT永续合约盘前交',
     },
 ];
