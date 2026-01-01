@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSUS',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的RLSU',
     },
     {
         date: '2025-12-03',
@@ -6302,5 +6302,23 @@ const cexListings = [
         type: 'perp',
         time: '19:45',
         notes: '📢 **Binance Futures Will Launch USDⓈ-Margined COLLECTUSDT and MAGMAUSDT Perpetual Contract (2025-12-31) **  币安期货将于2025年12月31日推出以美元Ⓢ为保证金的COLLECTUSDT和MA',
+    },
+    {
+        date: '2026-01-01',
+        token: 'XAUT',
+        token_display: 'Gold (XAUT)',
+        exchange: 'Upbit',
+        type: 'spot',
+        time: '12:00',
+        notes: '📢 **UPBIT LISTING:[Trade] Market Support for Tether Gold(XAUT) (KRW, BTC, USDT Market) **  UPBIT LISTING:【交易】Tether Gold(XAUT)市场支持（韩元、BTC、USDT市场）  ---',
+    },
+    {
+        date: '2026-01-01',
+        token: 'XAUT',
+        token_display: 'Gold (XAUT)',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '16:30',
+        notes: '📢 **Bithumb LISTING:[이벤트] 테더골드(XAUT) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】为庆祝加入韩元市场，Tether Gold (XAUT) 空投活动  ---------- 🔗 [查看来源](https://feed.b',
     },
 ];
