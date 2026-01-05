@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的R',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元Ⓢ计价的',
     },
     {
         date: '2025-12-03',
@@ -6320,5 +6320,23 @@ const cexListings = [
         type: 'spot',
         time: '16:30',
         notes: '📢 **Bithumb LISTING:[이벤트] 테더골드(XAUT) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】为庆祝加入韩元市场，Tether Gold (XAUT) 空投活动  ---------- 🔗 [查看来源](https://feed.b',
+    },
+    {
+        date: '2026-01-05',
+        token: 'BREV',
+        token_display: 'BREV (Brevis)',
+        exchange: 'OKX',
+        type: 'pre-market',
+        time: '11:30',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list BREV (Brevis) for spot trading and convert pre-market futures to standard perpetual futuresDe',
+    },
+    {
+        date: '2026-01-05',
+        token: 'BREV',
+        token_display: 'Brevis (BREV)',
+        exchange: 'Binance',
+        type: 'spot',
+        time: '18:04',
+        notes: '📢 **Binance: Introducing Brevis (BREV) on Binance HODLer Airdrops! Earn BREV With Retroactive BNB Simple Earn Subscriptions **  Binance: 币安 HODLer 空投推',
     },
 ];
