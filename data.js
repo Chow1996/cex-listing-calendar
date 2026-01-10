@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美元',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以美',
     },
     {
         date: '2025-12-03',
@@ -6492,6 +6492,15 @@ const cexListings = [
         type: 'pre-market',
         time: '10:45 UTC',
         notes: '📢 **Bybit to list Pre-Market Perpetuals for ZAMAUSDT on Jan 9, 2026, 10:45AM UTC **  Bybit将于2026年1月9日上午10:45（UTC）上线ZAMAUSDT盘前永续合约。  ---------- 🔗 [查看来源',
+    },
+    {
+        date: '2026-01-09',
+        token: 'ZAMA',
+        token_display: 'ZAMA (Zama)',
+        exchange: 'OKX',
+        type: 'pre-market',
+        time: '14:02',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list pre-market perpetual futures for ZAMA (Zama) cryptoDetail:  at: 2026-01-09T14:02:18Z **  OKX ',
     },
     {
         date: '2026-01-09',
