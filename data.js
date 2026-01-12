@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出以',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货将推出',
     },
     {
         date: '2025-12-03',
@@ -6523,7 +6523,7 @@ const cexListings = [
     {
         date: '2026-01-10',
         token: 'FOGO',
-        token_display: 'FOGO',
+        token_display: 'FOGO (Fogo)',
         exchange: 'Binance',
         type: 'pre-market',
         time: '21:42',
@@ -6532,7 +6532,7 @@ const cexListings = [
     {
         date: '2026-01-11',
         token: 'FOGO',
-        token_display: 'FOGO',
+        token_display: 'FOGO (Fogo)',
         exchange: 'Bybit',
         type: 'pre-market',
         time: '8:00 UTC',
