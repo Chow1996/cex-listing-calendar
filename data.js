@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期货',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币安期',
     },
     {
         date: '2025-12-03',
@@ -6619,5 +6619,23 @@ const cexListings = [
         type: 'spot',
         time: '18:03',
         notes: '📢 **Bybit to List Lighter  (LIT) on Spot **  Bybit 将在现场列出打火机 (LIT)。  ---------- 🔗 [查看来源](https://announcements.bybit.com/en/article/bybit-to-list-ligh',
+    },
+    {
+        date: '2026-01-15',
+        token: 'FOGO',
+        token_display: 'Fogo (FOGO)',
+        exchange: 'Binance',
+        type: 'spot',
+        time: '21:42',
+        notes: '📢 **Binance Will Add Fogo (FOGO) on Earn, Buy Crypto, Convert, Margin & Futures **  币安将在加密货币赚取、购买、转换、杠杆和期货交易中上线Fogo (FOGO)  ---------- 🔗 [查看来源](https:',
+    },
+    {
+        date: '2026-01-15',
+        token: 'FOGO',
+        token_display: 'FOGO (Fogo)',
+        exchange: 'Bybit',
+        type: 'spot',
+        time: '22:29',
+        notes: '📢 **BYBIT: 🔥 Listing of FOGO on Convert **  BYBIT: 🔥 FOGO 在 Convert 上的列表  ---------- 🔗 [查看来源](https://announcements.bybit.com/en/article/-listing-of-f',
     },
 ];
