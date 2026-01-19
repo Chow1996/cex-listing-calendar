@@ -5716,7 +5716,7 @@ const cexListings = [
         exchange: 'Binance',
         type: 'perp',
         time: '16:43',
-        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"币',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02) **  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"',
     },
     {
         date: '2025-12-03',
@@ -6673,5 +6673,14 @@ const cexListings = [
         type: 'spot',
         time: '10:45',
         notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Seeker (SKR), FIGHT (FIGHT) **  COINBASE LISTING: 今天添加到产品路线图的资产：Seeker (SKR)、FIGHT (FIGHT)  -',
+    },
+    {
+        date: '2026-01-19',
+        token: 'SPORTFUN',
+        token_display: 'SPORTFUN',
+        exchange: 'Bybit',
+        type: 'perp',
+        time: '18:01',
+        notes: '📢 **BYBIT: New listing: SPORTFUNUSDT Perpetual Contract in Innovation Zone, with up to 20x leverage **  BYBIT: 新上线：SPORTFUNUSDT 永续合约，创新区，最高可达 20 倍杠杆  ',
     },
 ];
