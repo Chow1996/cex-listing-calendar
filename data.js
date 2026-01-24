@@ -6894,4 +6894,22 @@ const cexListings = [
         time: '18:16',
         notes: '📢 **Binance Futures Will Launch USDⓈ-Margined SPACEUSDT and FIGHTUSDT Perpetual Contracts (2026-01-23) **  币安期货将推出以美元Ⓢ为保证金的SPACEUSDT和FIGHTUSDT永续合约（202',
     },
+    {
+        date: '2026-01-24',
+        token: 'DOOD',
+        token_display: 'Doodles (DOOD)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '07:21',
+        notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Doodles (DOOD), Moonbirds (BIRB) **  COINBASE LISTING: 今天添加到产品路线图的资产：涂鸦（DOOD）、月鸟（BIRB）  -----',
+    },
+    {
+        date: '2026-01-24',
+        token: 'BIRB',
+        token_display: 'Moonbirds (BIRB)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '07:21',
+        notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Doodles (DOOD), Moonbirds (BIRB) **  COINBASE LISTING: 今天添加到产品路线图的资产：涂鸦（DOOD）、月鸟（BIRB）  -----',
+    },
 ];
