@@ -4007,7 +4007,7 @@ const cexListings = [
     {
         date: '2025-10-07',
         token: 'DOOD',
-        token_display: 'DOOD',
+        token_display: 'Doodles (DOOD)',
         exchange: 'Upbit',
         type: 'spot',
         time: '12:35',
@@ -4318,7 +4318,7 @@ const cexListings = [
     {
         date: '2025-10-17',
         token: 'DOOD',
-        token_display: 'DOOD',
+        token_display: 'Doodles (DOOD)',
         exchange: 'Bithumb',
         type: 'spot',
         time: '11:33',
