@@ -6931,6 +6931,15 @@ const cexListings = [
         notes: '📢 **UPBIT LISTING:[거래] 솔라(SXP) 거래 유의 종목 지정 안내 **  UPBIT LISTING:【交易】关于指定 Solar (SXP) 为交易警示股票的通知  ---------- 🔗 [查看来源](https://upbit.com/service_center/',
     },
     {
+        date: '2026-01-27',
+        token: 'SENT',
+        token_display: 'SENT (Sentient)',
+        exchange: 'OKX',
+        type: 'spot',
+        time: '06:00',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list SENT (Sentient) for spot tradingDetail:  at: 2026-01-27T06:00:40Z **  OKX LISTING:#OKX 重要通知 O',
+    },
+    {
         date: '2026-01-28',
         token: 'TSLA',
         token_display: 'TSLA',
