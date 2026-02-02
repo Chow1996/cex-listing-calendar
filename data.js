@@ -7232,11 +7232,20 @@ const cexListings = [
     {
         date: '2026-02-01',
         token: 'PENGUIN',
-        token_display: 'PENGUIN',
+        token_display: 'Penguin (PENGUIN)',
         exchange: 'Bybit',
         type: 'spot',
         time: '03:10',
         notes: '📢 **BYBIT: 🔥 Listing of PENGUIN on Convert **  BYBIT: 🔥 企鹅在 Convert 上的上市  ---------- 🔗 [查看来源](https://announcements.bybit.com/en/article/-listing-of-p',
+    },
+    {
+        date: '2026-02-02',
+        token: 'ZAMA',
+        token_display: 'Zama (ZAMA)',
+        exchange: 'Binance',
+        type: 'spot',
+        time: '12:28',
+        notes: '📢 **Binance Will List Zama (ZAMA) with Seed Tag Applied **  币安将上线 Zama (ZAMA)，并应用种子标签。  ---------- 🔗 [查看来源](https://www.treeofalpha.com/preview_articl',
     },
     {
         date: '2026-02-02',
