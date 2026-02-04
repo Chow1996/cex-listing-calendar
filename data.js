@@ -7338,4 +7338,14 @@ const cexListings = [
         time: '18:32',
         notes: '📢 **BYBIT: 🔥 Listing of TRIA on Convert **  BYBIT: 🔥 TRIA 在 Convert 上的上市  ---------- 🔗 [查看来源](https://announcements.bybit.com/en/article/-listing-of-t',
     },
+    {
+        date: '2026-02-03',
+        token: 'TRIA',
+        token_display: 'Tria (TRIA)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '22:08',
+        pairs: 'TRIA/USD',
+        notes: '📢 **COINBASE LISTING: Spot trading for Tria (TRIA) will go live on 3 February 2026. The opening of our TRIA-USD trading pair will begin later today if',
+    },
 ];
