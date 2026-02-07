@@ -7442,4 +7442,13 @@ const cexListings = [
         time: '18:31',
         notes: '📢 **BYBIT: New listing: TRIAUSDT Perpetual Contract in Innovation Zone, with up to 25x leverage **  BYBIT: 新上线：TRIAUSDT 永续合约，创新区，最高可达 25 倍杠杆  --------',
     },
+    {
+        date: '2026-02-07',
+        token: 'UP',
+        token_display: 'Superform (UP)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '05:02',
+        notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Superform (UP) **  COINBASE LISTING: 今天添加到产品路线图的资产：Superform（UP）  ---------- 🔗 [查看来源](https:/',
+    },
 ];
