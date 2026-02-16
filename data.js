@@ -7610,4 +7610,22 @@ const cexListings = [
         time: '15:00',
         notes: '📢 **UPBIT LISTING:[거래] 루프링(LRC) 거래지원 종료 안내 (3/16 15:00) **  UPBIT LISTING:【交易】Loopring (LRC) 交易支持终止通知（3月16日下午3:00）  ---------- 🕒 __2026-02-13 05:00:03',
     },
+    {
+        date: '2026-02-16',
+        token: 'TAO',
+        token_display: 'BitTensor (TAO)',
+        exchange: 'Upbit',
+        type: 'spot',
+        time: '05:00',
+        notes: '📢 **UPBIT LISTING:비트텐서(TAO) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) **  UPBIT LISTING:BitTensor (TAO) 新交易支持公告（韩元、比特币、USDT 市场）  ---------- 🕒 __2026-02-16 05:00:',
+    },
+    {
+        date: '2026-02-16',
+        token: 'LIT',
+        token_display: 'LIT (Lighter)',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '07:18',
+        notes: '📢 **Bithumb LISTING:라이터(LIT) 원화 마켓 추가 **  Bithumb LISTING:新增韩元打火机（LIT）市场  ---------- 🔗 [查看来源](https://feed.bithumb.com/notice/1652015) 🕒 __2026-02-16 ',
+    },
 ];
