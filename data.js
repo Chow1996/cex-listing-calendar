@@ -3309,7 +3309,7 @@ const cexListings = [
     {
         date: '2025-09-18',
         token: 'TAO',
-        token_display: 'TAO',
+        token_display: 'BitTensor (TAO)',
         exchange: 'Bithumb',
         type: 'spot',
         time: '18:20',
