@@ -7628,4 +7628,22 @@ const cexListings = [
         time: '07:18',
         notes: '📢 **Bithumb LISTING:라이터(LIT) 원화 마켓 추가 **  Bithumb LISTING:新增韩元打火机（LIT）市场  ---------- 🔗 [查看来源](https://feed.bithumb.com/notice/1652015) 🕒 __2026-02-16 ',
     },
+    {
+        date: '2026-02-20',
+        token: 'AZTEC',
+        token_display: 'Aztec (AZTEC)',
+        exchange: 'Upbit',
+        type: 'spot',
+        time: '05:00',
+        notes: '📢 **UPBIT LISTING:아즈텍(AZTEC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) **  UPBIT LISTING:Aztec (AZTEC) 新增交易支持（KRW、BTC、USDT 市场）  ---------- 🕒 __2026-02-20 05:00:0',
+    },
+    {
+        date: '2026-02-20',
+        token: 'AZTEC',
+        token_display: 'Aztec (AZTEC)',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '08:00',
+        notes: '📢 **Bithumb LISTING:[이벤트] 아즈텍(AZTEC) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】空投活动庆祝阿兹特克（AZTEC）加入韩元市场  ---------- 🔗 [查看来源](https://feed.bithumb.com',
+    },
 ];
