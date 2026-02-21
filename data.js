@@ -7646,4 +7646,13 @@ const cexListings = [
         time: '08:00',
         notes: '📢 **Bithumb LISTING:[이벤트] 아즈텍(AZTEC) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:【活动】空投活动庆祝阿兹特克（AZTEC）加入韩元市场  ---------- 🔗 [查看来源](https://feed.bithumb.com',
     },
+    {
+        date: '2026-02-20',
+        token: 'ROBO',
+        token_display: 'Token (ROBO)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '15:47',
+        notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Robo Token (ROBO) **  COINBASE LISTING: 今天添加到路线图的资产：Robo Token (ROBO)  ---------- 🔗 [查看来源](ht',
+    },
 ];
