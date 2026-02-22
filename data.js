@@ -7655,4 +7655,13 @@ const cexListings = [
         time: '15:47',
         notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Robo Token (ROBO) **  COINBASE LISTING: 今天添加到路线图的资产：Robo Token (ROBO)  ---------- 🔗 [查看来源](ht',
     },
+    {
+        date: '2026-02-21',
+        token: 'OPN',
+        token_display: 'OPINION (OPN)',
+        exchange: 'Binance',
+        type: 'pre-market',
+        time: '14:41',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined OPNUSDT Perpetual Contract Pre-Market Trading (2026-02-21) **  币安期货将于2026年2月21日推出以美元Ⓢ为保证金的OPNUSDT永续合约盘前交',
+    },
 ];
