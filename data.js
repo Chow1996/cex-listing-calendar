@@ -7664,4 +7664,13 @@ const cexListings = [
         time: '14:41',
         notes: '📢 **Binance Futures Will Launch USDⓈ-Margined OPNUSDT Perpetual Contract Pre-Market Trading (2026-02-21) **  币安期货将于2026年2月21日推出以美元Ⓢ为保证金的OPNUSDT永续合约盘前交',
     },
+    {
+        date: '2026-02-23',
+        token: 'OPN',
+        token_display: 'OPN (Opinion)',
+        exchange: 'OKX',
+        type: 'pre-market',
+        time: '11:31',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list pre-market perpetual futures for OPN (Opinion) cryptoDetail:  at: 2026-02-23T11:31:31Z **  OK',
+    },
 ];
