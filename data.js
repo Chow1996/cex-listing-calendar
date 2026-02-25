@@ -7719,4 +7719,13 @@ const cexListings = [
         pairs: 'GWEI/USD',
         notes: '📢 **COINBASE LISTING: Spot trading for ETHGas (GWEI) will go live on 24 February 2026. The opening of our GWEI-USD trading pair will begin on or after',
     },
+    {
+        date: '2026-02-24',
+        token: 'CAD',
+        token_display: 'CAD',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '18:20',
+        notes: '📢 **COINBASE LISTING: Spot trading for USDC-AUD, USDC-SGD, and USDC-CAD will go live on 24 February 2026. The opening of our USDC-AUD, USDC-SGD, and U',
+    },
 ];
