@@ -7801,4 +7801,22 @@ const cexListings = [
         pairs: 'ROBO/USD',
         notes: '📢 **COINBASE LISTING: Spot trading for Robo Token (ROBO) is expected to go live on 27 February 2026. The opening of our ROBO-USD trading pair will beg',
     },
+    {
+        date: '2026-03-02',
+        token: 'KAT',
+        token_display: 'KAT',
+        exchange: 'Binance',
+        type: 'pre-market',
+        time: '04:16',
+        notes: '📢 **Binance Futures Will Launch USDⓈ-Margined KATUSDT Perpetual Contract Pre-Market Trading (2026-03-02) **  币安期货将于2026年3月2日推出以美元计价的KATUSDT永续合约盘前交易。  ',
+    },
+    {
+        date: '2026-03-02',
+        token: 'KAT',
+        token_display: 'KAT',
+        exchange: 'OKX',
+        type: 'pre-market',
+        time: '11:00',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list pre-market perpetual futures for KAT cryptoDetail:  at: 2026-03-02T11:00:44Z **  OKX LISTING:',
+    },
 ];
