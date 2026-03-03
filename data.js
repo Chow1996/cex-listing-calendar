@@ -7819,4 +7819,13 @@ const cexListings = [
         time: '11:00',
         notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list pre-market perpetual futures for KAT cryptoDetail:  at: 2026-03-02T11:00:44Z **  OKX LISTING:',
     },
+    {
+        date: '2026-03-02',
+        token: 'OPN',
+        token_display: 'Opinion (OPN)',
+        exchange: 'Binance',
+        type: 'spot',
+        time: '12:45',
+        notes: '📢 **Binance: Introducing Opinion (OPN) on Binance Launchpool! Farm OPN by Locking BNB, USDC, U, and USD1 **  Binance: 币安 Launchpool 现已推出 Opinion (OPN)',
+    },
 ];
