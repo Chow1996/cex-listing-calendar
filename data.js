@@ -7929,4 +7929,14 @@ const cexListings = [
         time: '12:30',
         notes: '📢 **Binance Futures Will Launch USDⓈ-Margined COPPERUSDT Perpetual Contract (2026-03-06) **  币安期货将推出以美元Ⓢ为保证金的铜USDT永续合约（2026年3月6日）  ---------- 🔗 [查看来源]',
     },
+    {
+        date: '2026-03-06',
+        token: 'LMTS',
+        token_display: 'Limitless (LMTS)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '21:57',
+        pairs: 'LMTS/USD',
+        notes: '📢 **COINBASE LISTING: The launch of spot trading for Limitless (LMTS) has been postponed to 6 March 2026. The opening of our LMTS-USD trading pair wil',
+    },
 ];
