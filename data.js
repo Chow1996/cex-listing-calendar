@@ -7939,4 +7939,13 @@ const cexListings = [
         pairs: 'LMTS/USD',
         notes: '📢 **COINBASE LISTING: The launch of spot trading for Limitless (LMTS) has been postponed to 6 March 2026. The opening of our LMTS-USD trading pair wil',
     },
+    {
+        date: '2026-03-07',
+        token: 'BLEND',
+        token_display: 'Fluent (BLEND)',
+        exchange: 'Coinbase',
+        type: 'spot',
+        time: '18:24',
+        notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Fluent (BLEND) **  COINBASE LISTING: 今天添加到产品路线图的资产：Fluent（BLEND）  ---------- 🔗 [查看来源](https:/',
+    },
 ];
