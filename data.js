@@ -7948,4 +7948,13 @@ const cexListings = [
         time: '18:24',
         notes: '📢 **COINBASE LISTING: Assets added to the roadmap today: Fluent (BLEND) **  COINBASE LISTING: 今天添加到产品路线图的资产：Fluent（BLEND）  ---------- 🔗 [查看来源](https:/',
     },
+    {
+        date: '2026-03-09',
+        token: 'XAU',
+        token_display: 'XAU',
+        exchange: 'Bybit',
+        type: 'perp',
+        time: '03:14',
+        notes: '📢 **BYBIT: New listing: XAUUSDT Perpetual Contract, with up to 75x leverage **  BYBIT: 新品上线：XAUUSDT永续合约，最高可达75倍杠杆  ---------- 🔗 [查看来源](https://announc',
+    },
 ];
