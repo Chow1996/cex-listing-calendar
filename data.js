@@ -7957,4 +7957,22 @@ const cexListings = [
         time: '03:14',
         notes: '📢 **BYBIT: New listing: XAUUSDT Perpetual Contract, with up to 75x leverage **  BYBIT: 新品上线：XAUUSDT永续合约，最高可达75倍杠杆  ---------- 🔗 [查看来源](https://announc',
     },
+    {
+        date: '2026-03-10',
+        token: 'NGD',
+        token_display: 'NGD',
+        exchange: 'OKX',
+        type: 'perp',
+        time: '08:31',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list perpetual futures for NGDetail:  at: 2026-03-10T08:31:19Z **  OKX LISTING:OKX 重要通知：OKX 将于 202',
+    },
+    {
+        date: '2026-03-10',
+        token: 'NG',
+        token_display: 'NG',
+        exchange: 'OKX',
+        type: 'perp',
+        time: '08:31',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list perpetual futures for NGDetail:  at: 2026-03-10T08:31:19Z **  OKX LISTING:OKX 重要通知：OKX 将于 202',
+    },
 ];
