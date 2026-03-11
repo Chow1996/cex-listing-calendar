@@ -7975,4 +7975,22 @@ const cexListings = [
         time: '08:31',
         notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list perpetual futures for NGDetail:  at: 2026-03-10T08:31:19Z **  OKX LISTING:OKX 重要通知：OKX 将于 202',
     },
+    {
+        date: '2026-03-11',
+        token: 'ICP',
+        token_display: 'ICP',
+        exchange: 'Upbit',
+        type: 'spot',
+        time: '06:00',
+        notes: '📢 **UPBIT LISTING:[거래] 인터넷컴퓨터(ICP) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) **  UPBIT LISTING:【交易】新型互联网电脑（ICP）交易支持（韩元、比特币、USDT 市场）  ---------- 🕒 __2026-03-11 06',
+    },
+    {
+        date: '2026-03-11',
+        token: 'NIGHT',
+        token_display: 'Midnight (NIGHT)',
+        exchange: 'Binance',
+        type: 'spot',
+        time: '11:31',
+        notes: '📢 **Binance: Introducing Midnight (NIGHT) on Binance HODLer Airdrops! Earn NIGHT With Retroactive BNB Simple Earn Subscriptions **  Binance: 币安 HODLer',
+    },
 ];
