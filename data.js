@@ -7993,4 +7993,13 @@ const cexListings = [
         time: '11:31',
         notes: '📢 **Binance: Introducing Midnight (NIGHT) on Binance HODLer Airdrops! Earn NIGHT With Retroactive BNB Simple Earn Subscriptions **  Binance: 币安 HODLer',
     },
+    {
+        date: '2026-03-12',
+        token: 'CYS',
+        token_display: 'CYS',
+        exchange: 'Bithumb',
+        type: 'spot',
+        time: '06:40',
+        notes: '📢 **Bithumb LISTING:싸이식(CYS) 원화마켓 추가 기념 에어드랍 이벤트 **  Bithumb LISTING:为庆祝CYS加入韩元市场，我们将举办空投活动  ---------- 🔗 [查看来源](https://feed.bithumb.com/notice/16522',
+    },
 ];
