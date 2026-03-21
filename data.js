@@ -8183,4 +8183,13 @@ const cexListings = [
         time: '4:30 UTC',
         notes: '📢 **Bybit to list Pre-Market Perpetuals for EDGEUSDT on Mar 20, 2026, 4:30AM UTC **  Bybit将于2026年3月20日凌晨4:30（UTC）上线EDGEUSDT盘前永续合约。  ---------- 🔗 [查看来源',
     },
+    {
+        date: '2026-03-23',
+        token: 'PAYP',
+        token_display: 'PAYP',
+        exchange: 'Binance',
+        type: 'perp',
+        time: '21:58',
+        notes: '📢 **Binance Futures Will Launch PAYPUSDT USDⓈ-Margined Equity Perpetual Contract (2026-03-23) **  币安期货将推出 PAYPUSDT 美元保证金股票永续合约（2026年3月23日）  ----------',
+    },
 ];
