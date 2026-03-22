@@ -8184,6 +8184,15 @@ const cexListings = [
         notes: '📢 **Bybit to list Pre-Market Perpetuals for EDGEUSDT on Mar 20, 2026, 4:30AM UTC **  Bybit将于2026年3月20日凌晨4:30（UTC）上线EDGEUSDT盘前永续合约。  ---------- 🔗 [查看来源',
     },
     {
+        date: '2026-03-22',
+        token: 'RESOLV',
+        token_display: 'RESOLV (Resolv)',
+        exchange: 'Upbit',
+        type: 'spot',
+        time: '12:40',
+        notes: '📢 **UPBIT LISTING:[거래] 리졸브(RESOLV) 유의 촉구 안내 **  UPBIT LISTING:【交易】RESOLV 警告通知  ---------- 🕒 __2026-03-22 12:40:04__',
+    },
+    {
         date: '2026-03-23',
         token: 'PAYP',
         token_display: 'PAYP',
