@@ -8219,4 +8219,22 @@ const cexListings = [
         time: '21:58',
         notes: '📢 **Binance Futures Will Launch PAYPUSDT USDⓈ-Margined Equity Perpetual Contract (2026-03-23) **  币安期货将推出 PAYPUSDT 美元保证金股票永续合约（2026年3月23日）  ----------',
     },
+    {
+        date: '2026-03-24',
+        token: 'BRENTOILD',
+        token_display: 'BRENTOILD',
+        exchange: 'OKX',
+        type: 'perp',
+        time: '08:01',
+        notes: '📢 **OKX LISTING:****#OKX**** Important NoticeOKX to list perpetual futures for BRENTOILDetail:  at: 2026-03-24T08:01:42Z **  OKX LISTING:OKX 重要通知：OKX ',
+    },
+    {
+        date: '2026-03-24',
+        token: 'CL',
+        token_display: 'CL',
+        exchange: 'Bybit',
+        type: 'perp',
+        time: '16:12',
+        notes: '📢 **BYBIT: New listing: CLUSDT Perpetual Contract, with up to 50x leverage **  BYBIT: 新品上线：CLUSDT永续合约，最高可达50倍杠杆  ---------- 🔗 [查看来源](https://announcem',
+    },
 ];
